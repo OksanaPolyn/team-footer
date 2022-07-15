@@ -159,18 +159,19 @@ html {
 @media screen and (min-width: 768px) {
   .container {
     width: 768px;
+    height: 262px;
   }
 }
 @media screen and (min-width: 1200px) {
   .container {
     width: 1200px;
+    height: 213px;
   }
 }
 
 .footer {
   background-color: #FFF5F6;
   padding-bottom: 3px;
-  height: 333px;
 }
 
 .footer .container {
