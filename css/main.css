@@ -158,7 +158,6 @@ html {
 
 .footer {
   background-color: #FFF5F6;
-  padding-top: 40px;
   padding-bottom: 3px;
   height: 333px;
 }
@@ -166,15 +165,14 @@ html {
 .footer .container {
   display: flex;
   flex-direction: column;
-  align-items: center;
 }
 
-.footer-title {
+.footer_text {
   flex-direction: column;
   display: flex;
 }
 
-.footer-title {
+.footer_text {
   font-weight: 700;
   font-size: 14px;
   line-height: 1.14;
@@ -189,49 +187,54 @@ html {
   height: 42px;
 }
 
-.footer-text-small {
+.footer_text_small {
   font-size: 18px;
   line-height: 21px;
   text-transform: uppercase;
   color: #FFA5BA;
+  padding-bottom: 16px;
 }
 
-.footer-text-big {
+.footer_text_big {
   font-size: 34px;
   line-height: 39px;
   letter-spacing: 0.04em;
   text-transform: uppercase;
   color: #D41443;
+  padding-bottom: 40px;
 }
 
-.footer-contact {
+.footer_contact {
   text-align: end;
   flex-direction: column;
+  padding-bottom: 40px;
 }
 
 .footer-soc-list {
   display: flex;
   margin: 0;
+  justify-content: right;
+  padding-bottom: 40px;
 }
 
-.footer-soc-item {
+.footer_soc_item {
   width: 32px;
   height: 32px;
   border-radius: 50%;
   display: flex;
   align-items: center;
   justify-content: center;
-  fill: #FFF5F6;
+  fill: #FFFFFF;
   background: #FEA5BB;
   transition: background-color #D41443 cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.footer-soc-item:not(:last-child) {
+.footer_soc_item:not(:last-child) {
   margin-right: 20px;
 }
 
-.footer-soc-item:hover,
-.footer-soc-item:focus {
+.footer_soc_item:hover,
+.footer_soc_item:focus {
   background-color: #D41443;
   cursor: pointer;
 }
@@ -250,4 +253,17 @@ html {
   line-height: 186%;
   text-align: right;
   color: #D41443;
+}
+
+.footer-title_end {
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 1.52%;
+  text-align: center;
+  color: #907E82;
+  padding-top: 16px;
+}
+
+.end {
+  margin: 0;
 }/*# sourceMappingURL=main.css.map */
