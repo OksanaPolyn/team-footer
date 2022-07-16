@@ -170,11 +170,12 @@ html {
   .footer_bloc {
     display: flex;
     flex-direction: row;
+    padding-bottom: 59px;
   }
 }
-@media screen and (min-width: 780px) and (min-width: 1200px) {
+@media screen and (min-width: 780px) {
   .footer_bloc {
-    padding-bottom: 60px;
+    padding-bottom: 0px;
   }
 }
 
@@ -183,6 +184,12 @@ html {
   display: flex;
   color: #D41443;
   padding-bottom: 40px;
+}
+@media screen and (min-width: 780px) {
+  .footer_text {
+    padding-bottom: 0px;
+    width: 340px;
+  }
 }
 
 .footer-list {
@@ -233,9 +240,9 @@ html {
   .footer_text_big {
     font-size: 58px;
     line-height: 1.13;
-    padding-bottom: 60px;
     width: 474px;
     height: auto;
+    padding-bottom: 60px;
   }
 }
 
@@ -247,14 +254,14 @@ html {
 @media screen and (min-width: 768px) {
   .footer_contact {
     padding-top: 40px;
-    padding-bottom: 59px;
+    padding-bottom: 0px;
     padding-left: 128px;
   }
 }
 @media screen and (min-width: 1200px) {
   .footer_contact {
     padding-left: 375px;
-    padding-bottom: 59px;
+    padding-top: 11px;
   }
 }
 
@@ -300,6 +307,12 @@ html {
 .footer_soc_item:focus {
   background-color: #D41443;
   cursor: pointer;
+}
+
+@media screen and (min-width: 1200px) {
+  .tel {
+    padding-bottom: 60px;
+  }
 }
 
 .tel-text {

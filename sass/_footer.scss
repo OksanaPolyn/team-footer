@@ -14,13 +14,11 @@
     @media screen and (min-width: 780px) {
         display: flex;
         flex-direction: row;
-        
-        @media screen and (min-width: 1200px) {
-            padding-bottom: 60px;
-        }
+        padding-bottom: 59px;   
     }
-
-   
+    @media screen and (min-width: 780px) {
+        padding-bottom: 0px;   
+    }
 }
 
 .footer_text {
@@ -28,7 +26,13 @@
     display: flex;
     color: #D41443;
     padding-bottom: 40px;
-   
+    @media screen and (min-width: 780px) {
+        padding-bottom: 0px;   
+        width: 340px;
+    }
+    @media screen and (min-width: 780px) {
+        width: auto;
+    }
    
 }
    
@@ -74,10 +78,9 @@
     @media screen and (min-width: 1199px) {
         font-size: 58px;
         line-height: 1.13;
-        padding-bottom: 60px;
         width: 474px;
         height: auto;
-        
+        padding-bottom: 60px; 
     }
 }
 
@@ -87,13 +90,14 @@
     padding-bottom: 40px;
     @media screen and (min-width: 768px) {
         padding-top: 40px;
-        padding-bottom: 59px;   
+        padding-bottom: 0px;   
         padding-left: 128px;
 
     }
     @media screen and (min-width: 1200px) {
        padding-left: 375px;
-        padding-bottom: 59px;
+       padding-top:11px;
+       
     }
 }
 
@@ -141,7 +145,12 @@
     cursor: pointer; 
 }
 
-
+.tel{
+    @media screen and (min-width: 1200px) {
+         
+        padding-bottom: 60px;
+    }
+}
 .tel-text{
     font-weight: 700;
     font-size: 13px;
@@ -157,6 +166,7 @@
         font-size: 16px;
         line-height: 1.86;  
         letter-spacing: 0.02em;  
+        //padding-bottom: 60px;
     }
 }
 .tel-num{
@@ -173,6 +183,7 @@
     @media screen and (min-width: 1200px) {
         font-size: 16px;
         letter-spacing: 0.02em;  
+        //padding-bottom: 60px;
     }
 }
 .end{
